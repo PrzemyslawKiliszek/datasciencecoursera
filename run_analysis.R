@@ -45,7 +45,7 @@ p<-function(x){
 		for (j in 1:nrow(activity)){
 			h<-activity[j,1]
 			i<-activity[j,2] 	
-			All.select$Activity<<-sub(h,i,All.select$Activity)	#<<- by do global przeniesc			
+			All.select$Activity<<-sub(h,i,All.select$Activity)	#<<- giving to global env.			
 			}
 
 }
