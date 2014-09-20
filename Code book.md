@@ -2,10 +2,12 @@ Code book
 =========
 ##Code
 The code for cleaning data is in the file README.md in this repo.
-## activity
+## Description of variables
+
+### activity
 one of six activities: WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING pefrormed by a subject
-## subject
+### subject
 volunteers labeled by ID 1-30
-## Desciption of other functions
+### other functions
 - "t" to denote time or "f" for frequency signal
 - "BodyAcc" to denote body acceleration or "GravityAcc" for gravity acceleration signal 
