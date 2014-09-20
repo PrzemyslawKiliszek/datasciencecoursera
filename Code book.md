@@ -9,6 +9,9 @@ one of six activities: WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, S
 ### subject
 volunteers labeled by ID 1-30
 ### code for other variables
-- domain:       "t" to denote time or "f" for frequency signal
-- acceleration: "Body" to denote body acceleration or "Gravity" for gravity acceleration signal 
-- 
+- domain: t - time | f - frequency
+- acceleration: Body | Gravity 
+- instrument: "Acc" for accelerometr | "Gyro" for gyroscope
+- calculation: "MEAN" for mean | "SD" for standard deviation
+- direction: "X", "Y", "Z"
+- other: "Jerk" for jerk signal
