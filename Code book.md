@@ -37,6 +37,7 @@ volunteers labeled by ID 1-30
 - other: Jerk - Jerk signals | Magn - Magnitude | Freq - Frequency | Angle - angle between 2 vectors
 
 ***
+
 ## units
 - Frequency: Hz
 - Time: Sec
