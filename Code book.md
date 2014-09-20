@@ -1,7 +1,11 @@
 Code book
 =========
 ##Code
-The code for cleaning data is in the file README.md in this repo.
+The R code for cleaning data is in the file README.md in this repo.
+
+*** 
+
+
 ## Description of variables
 
 ### activity
@@ -11,7 +15,8 @@ volunteers labeled by ID 1-30
 ### code for other variables
 - domain: t - time | f - frequency
 - acceleration: Body | Gravity 
-- instrument: "Acc" for accelerometr | "Gyro" for gyroscope
-- calculation: "MEAN" for mean | "SD" for standard deviation
-- direction: "X", "Y", "Z"
-- other: "Jerk" for jerk signal
+- instrument: Acc - accelerometr | Gyro - gyroscope
+- calculation: MEAN | SD - standard deviation
+- Axis in euclidean system: X, Y, Z
+- other: Jerk - Jerk signals | Magn - Magnitude | Freq - Frequency | Angle - angle between 2 vectors
+
