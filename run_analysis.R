@@ -59,4 +59,4 @@ All.select$Subject<-factor(All.select$Subject)
 tidy = aggregate(All.select, by=list(activity = All.select$Activity, subject=All.select$Subject), mean)
 tidy$Activity<-NULL
 tidy$Subject<-NULL
-write.table(tidy, "tidy.txt", row.name=FALSE)
+write.table(tidy, "tidy_tab.txt", row.name=FALSE, sep="\t")
