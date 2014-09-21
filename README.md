@@ -3,7 +3,7 @@ How the script works
 ##Preparation of data
 
 - download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unzip the file
-- change the working directory to C:\Users\yourname\Documents\R\UCI HAR Dataset\
+- change the working directory of R to C:\Users\yourname\Documents\R\UCI HAR Dataset\
 - run the file run_analysis.R on your computer
 
 
